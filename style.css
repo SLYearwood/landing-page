@@ -80,3 +80,36 @@ nav ul{
 header img {
     height: 250px;
 }
+
+.illustration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #EC745C;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    width: 600px;
+    gap: 0 25px;
+    margin: 40px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.info-card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: -10px;
+    border: solid #F4B998;
+    border-radius: 15%;
+}
