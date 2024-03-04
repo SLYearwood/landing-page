@@ -24,6 +24,7 @@ header img,
 }
 
 a {
+    transition-duration: 0.4s;
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -77,7 +78,17 @@ nav ul{
     border-radius: 6px;
     padding: 5px;
     border: none;
+    transition-duration: 0.4s;
 }
+
+.sign-up:hover {
+    background-color: white;
+}
+
+a:hover {
+    color: #EC745C;
+}
+
 header img {
     height: 250px;
 }
